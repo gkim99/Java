@@ -30,14 +30,13 @@ public class CafeJava {
         System.out.println(generalGreeting + customer1 + pendingMessage); // Displays "Welcome to Cafe Java, Cindhuri"
     	// ** Your customer interaction print statements will go here ** //
         
-        if (isReadyOrder3 == true){
-            System.out.println(generalGreeting + customer4 + readyMessage);
+        if (isReadyOrder4 == true){
+            System.out.println(customer4 + readyMessage);
             System.out.println(displayTotalMessage + cappuccino);
         } else {
-            System.out.println(generalGreeting + customer4 + pendingMessage);
+            System.out.println(customer4 + pendingMessage);
         }
 
-        System.out.println(generalGreeting + customer2);
         System.out.println(displayTotalMessage + (latte*2));
         if (isReadyOrder2 == true){
             System.out.println(customer2 + readyMessage);
