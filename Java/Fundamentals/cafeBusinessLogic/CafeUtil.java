@@ -16,7 +16,7 @@ public class CafeUtil{
     public void printPriceChart(String productName, double price, int maxNumber){
         System.out.println(productName);
         for(int i = 1; i <= maxNumber; i++){
-                System.out.println(i + " - " + f.format(price * i));
+            System.out.println(i + " - " + f.format(price * i));
         }
     }
 
